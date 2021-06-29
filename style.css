@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0; /* This will be applicable for all html elements */
+	box-sizing: border-box;
+}
+
+body{
+font-family: 'Poppins', sans-serif;/* Here we have to edit both html and css to change the font of our text. We copied the link to html and the font name to css.*/
+}
+.navbar{
+	display:flex;
+	align-items: center; /* This made the logo move a little bit lower */
+	padding: 20px
+}
+nav{
+	flex: 1;
+	text-align: right; /* We shifted the list to the right */
+}
+nav ul{
+	display: inline-block; /* We used this part to remove the bullet form */
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block; /*This made the menubar to be aligned horizontally */
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555;
+}
+.container{
+	max-width: 1300px; /* This moved the logo and the menubar towards the center*/
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row{
+	display: flex;
+	align-items: center; /* This comes before we move the heading and the paragraph and before we resize the image with models*/
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%; /* Here we moved the heading and the paragraph*/
+	min-width: 300px;
+}
+.col-2 img{
+	max-width: 100%; /* Here we are attempting to resize the picture with models*/
+	padding: 50px 0;
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px; /* Here we increase the size of the heading*/
+	margin: 25px 0;
+}
+.btn{ /*This is the color button with the text explore now*/
+	display: inline-block;
+	background: #ff0000;/*color red*/
+	color: #fff; /*color white*/
+	padding: 8px 30px; /* 80 pixels from top to bottom and 30 pixels from left to right*/
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s; /*The hollow effect, making the explore button round*/
+}
+.btn:hover{
+	background: #563434; /*The hover effect, making the explore button round*/
+}
+.header{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+	margin-top: 70px; /*We added space from top and bottom*/
+}
+
+.categories{
+	margin: 70px 0;
+}
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+.col-3 img{
+	max-width: 100%; /* Here we are attempting to resize the picture with models*/
+}
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left:25px;
+	padding-right: 25px;
+}
+.col-4{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 10px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.col-4 img{
+	width: 100%;
+}
+.title{
+	text-align: center;
+	margin: 0 auto 80px; 
+	position: relative; /*Here we aligned the feaured text and we placed it at the centre*/
+	line-height: 60px;
+	color: #555;
+}
+.title::after{
+	content:'';
+	background: #ff523b;
+	width: 80px;
+	height: 5px; /* We added a read line next to featured title above the featured products*/
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+h4{
+	color: #555;
+	font-weight; normal; /*here we changed the color of the headings of featured items*/
+}
+.col-4 p{
+	font-size: 14px;
+}
+.rating .fa{
+	color: #ff523b;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
+.offer{
+	background: radial-gradient(#fff,#ffd6d6);/* We added the color on the background of our offer*/
+	margin-top: 80px;
+	padding: 30px 0;
+}
+.col-2 .offer-img{
+	padding: 10px; /*changed the size of the pic with the offer*/
+}
+small{
+	color: #555;/* We changed the text color*/
+}
+/*-----------------------------------testimonial------------------------*/
+
+.testimonial{
+	padding-top: 100px;
+}
+.testimonial .col-3{
+	text-align: center;
+	padding-top: 40px 20px;
+}
+.testimonial .col-3 img{
+	width:50px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
