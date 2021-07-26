@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>All products-Streetfame</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Here we linked the html file with the css file-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--Here we have to edit both html and css to change the font of our text. We copied the link to html and the font name to css-->
+    <link
+      href="https://fonts.googleapis.com/css2?
+family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--Everything that is inside the container class was added and run before the container, see css side to understand the order of things-->
+      <div class="navbar">
+        <div class="logo">
+          <!-- Here we're adding a logo for our website-->
+          <a href="index.html"
+            ><img src="images/mainlogo.PNG" width="125px" alt="Streetfamelogo"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <!-- Here we create our unordered list -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- The a and the href are responsible for making the menu clickable-->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <!-- we added a cart icon-->
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        <!-- we added a menubar-->
+      </div>
+    </div>
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+          <option>Default Sorting</option>
+          <option>Sort by price</option>
+          <option>Sort by popularity</option>
+          <option>Sort by rating</option>
+          <option>Sort by sale</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <a href="products.details.html"
+            ><img src="images/featured1.jpg" width="250" height="300"
+          /></a>
+          <a href="products.details.html"><h4>Camouflage Hoody</h4></a>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <p>R300.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/bucket1.jpg" width="250" height="300" />
+          <h4>Bucket hat</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>R100.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/greenbini.jpg" width="250" height="300" />
+          <h4>Bini</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <p>R60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="Images/bodywarmer1.jpg" width="250" height="300" />
+          <h4>Body Warmer</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>R250.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/hectic1.jpg" width="250" height="300" />
+          <h4>Hectic Crop Pullover</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <p>R349.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/featured2.jpg" width="250" height="300" />
+          <h4>Nyuku Swag Jackets</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>R399.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/shimzaladies.jpg" width="250" height="300" />
+          <h4>Shimza Masks</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+          </div>
+          <p>R149.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/theweekendm.jpg" width="250" height="300" />
+          <h4>The Weekend Hoodies</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>R729.00</p>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <img src="images/carmain.jpg" width="250" height="300" />
+            <h4>Car Branding</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>R1999.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/tshirtprinting.jpg" width="250" height="300" />
+            <h4>T-shirt Printing</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>R99.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/bannerspizza.jpg" width="250" height="300" />
+            <h4>Banners</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half" aria-hidden="true"></i>
+            </div>
+            <p>R349.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/embroid.jpg" width="250" height="300" />
+            <h4>Embroidery</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>R149.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!---------------------footer--------------------------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile</p>
+            <div class="app-logo">
+              <img src="Images/play-store.png" />
+              <img src="Images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="Images/mainlogo.PNG" />
+            <p>
+              We value our customers and aim to provide the best services
+              possible.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright-Easy tutorials</p>
+      </div>
+    </div>
+    <!-------------------js for toggle menu---------------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

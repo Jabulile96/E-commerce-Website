@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>All products-Streetfame</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Here we linked the html file with the css file-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--Here we have to edit both html and css to change the font of our text. We copied the link to html and the font name to css-->
+    <link
+      href="https://fonts.googleapis.com/css2?
+family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--Everything that is inside the container class was added and run before the container, see css side to understand the order of things-->
+      <div class="navbar">
+        <div class="logo">
+          <!-- Here we're adding a logo for our website-->
+          <a href="index.html"
+            ><img src="images/mainlogo.PNG" width="125px" alt="Streetfamelogo"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <!-- Here we create our unordered list -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- The a and the href are responsible for making the menu clickable-->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <!-- we added a cart icon-->
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        <!-- we added a menubar-->
+      </div>
+    </div>
+
+    <!--------------------------------------contact---------------------->
+    <div class="contact-section">
+      <h1>Contact Us</h1>
+      <div class="border"></div>
+      <form class="contact-form" action="index.html" method="POST">
+        <input type="text" class="contact-form-text" placeholder="Full Name" />
+        <input type="email" class="contact-form-text" placeholder="Email" />
+        <input type="text" class="contact-form-text" placeholder="Contact" />
+        <textarea
+          class="contact-form-text"
+          placeholder="Your message"
+        ></textarea>
+        <input type="submit" class="contact-form-button" value="Send" />
+      </form>
+    </div>
+  </body>
+</html>
