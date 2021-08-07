@@ -59,4 +59,4 @@ In future we hope to include the backend of this project after learning the nece
  Give this project a star if you feel it is up to standard.
  
  ## License
- &copy; 2021 Jabulile Khoza & Easy Tutorials<br/>
+ &copy; 2021 Jabulile Khoza & Easy Tutorials.<br/>
