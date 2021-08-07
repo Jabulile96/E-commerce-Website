@@ -32,19 +32,17 @@ In future we hope to include the backend of this project after learning the nece
  ## Visuals
  Here is a visual representation of the website in the form of screenshots.
 
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image1.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image2.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image3.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image4.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image5.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image6.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image7.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image8.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image9.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image10.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image11.jpg)
  
  ## Author
  The authors responsible for this game are:<br/>
@@ -53,7 +51,7 @@ In future we hope to include the backend of this project after learning the nece
  
  ## Contributing
  Contributions, issues and feature requests are welcome!<br/>
- Please feel free to check the [issues page]().
+ Please feel free to check the [issues page](https://github.com/Jabulile96/E-commerce-Website/issues).
  
  ## Show your support
  Give this project a star if you feel it is up to standard.
