@@ -41,11 +41,13 @@ In future we hope to include the backend of this project after learning the nece
   ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image7.jpg)<br/><br/>
   ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image8.jpg)<br/><br/>
   ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image9.jpg)<br/><br/>
-  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image10.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image10.jpg)<br/><br/> 
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image12.jpg)<br/><br/> 
+  ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image13.jpg)<br/><br/>
   ![](https://github.com/Jabulile96/E-commerce-Website/blob/master/imagess/image11.jpg)
  
  ## Author
- The authors responsible for this game are:<br/>
+ The authors responsible for this website are:<br/>
  Jabulile Khoza
  * [github](https://github.com/Jabulile96)
  
